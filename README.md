@@ -26,7 +26,7 @@ converts to
 - select a block of csv code
 - cmd/control P and choose 'CSV to Markdown Table' command
 
-Original CSV followed by the markdown table are pasted into the current note replacing the originl selection
+Both the original CSV followed by the markdown table is pasted into the current note replacing the original selection
 
 ## Limitations
 - first line is assumed to be the header line
