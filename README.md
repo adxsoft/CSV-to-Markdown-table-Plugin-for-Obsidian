@@ -36,4 +36,4 @@ Original CSV followed by the markdown table are pasted into the current note rep
 ## TODO
 - add support for double quoted CSV fields
 
-Feel free to re-use/enhance this plugin
+Feel free to re-use/enhance this plugin. The source code for the plugin is main.ts
