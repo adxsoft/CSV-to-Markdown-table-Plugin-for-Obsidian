@@ -2,10 +2,14 @@
 
 This is my first attempt at a CSV to Markdown table plugin for Obsidian. 
 
-Header 1,Header 2,Header 3
+
+<i>Header 1,Header 2,Header 3
+
 data1,data2,data3
+</i>
 
 converts to 
+
 |Header 1|Header 2|Header 3|
 |---|---|---|
 |data1|data2|data3|
@@ -13,8 +17,9 @@ converts to
 ## Installation
 
 - download the zip of this repository
-- unzip in the .obsidian folder of your vault
-- restart obsidian
+- in .obsidian/plugins folder of your vault create a folder called csvtotable
+- unzip the contents of this repository into the csvtotable folder
+- - restart obsidian
 - go to settings, Community plugins and enable 'CSV to Markdown Table' plugin
 
 ## How to use
@@ -30,3 +35,5 @@ Original CSV followed by the markdown table are pasted into the current note rep
 
 ## TODO
 - add support for double quoted CSV fields
+
+Feel free to re-use/enhance this plugin
