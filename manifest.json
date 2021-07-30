@@ -1,0 +1,10 @@
+{
+	"id": "csvtotable",
+	"name": "CSV to Markdown Table",
+	"version": "0.2",
+	"minAppVersion": "0.9.7",
+	"description": "CSV to Markdown Table",
+	"author": "adxsoft",
+	"authorUrl": "https://obsidian.md/about",
+	"isDesktopOnly": false
+}
