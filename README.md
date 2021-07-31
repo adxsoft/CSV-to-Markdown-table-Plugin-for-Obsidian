@@ -1,7 +1,10 @@
-# CSV-to-Markdown-table-Plugin-for-Obsidian V0.2
+# CSV-to-Markdown-table-Plugin-for-Obsidian V0.3
 
 This is my first attempt at a CSV to Markdown table plugin for Obsidian. 
 
+Its set to operate on Desktop only as I'm not sure yet about how the clipboard functions will work on mobile.
+V0.3 has added the abillity to parsed quoted csv fields that may contain commas.
+<i>Thanks to Peter Thoeny at https://github.com/peterthoeny/parse-csv-js</i>
 
 <i>Header 1,Header 2,Header 3
 
@@ -34,6 +37,7 @@ Both the original CSV followed by the markdown table is pasted into the current 
 - csv fields in double quotes are not yet supported
 
 ## TODO
-- add support for double quoted CSV fields
+- test on mobile
+- DONE. add support for double quoted CSV fields
 
 Feel free to re-use/enhance this plugin. The source code for the plugin is main.ts
